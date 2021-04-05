@@ -15,10 +15,9 @@ $(".new-input").keypress(function(event){
         });
         
         
-        $( ".list" ).sortable();
-        // $( ".list" ).disableSelection();
-        // $(".list").dropable
-        // $( ".list-item" ).draggable();
+        $( ".list" ).sortable({
+            connectWith: ".list"
+        }).disableSelection();
     }
 })
 

@@ -1,3 +1,7 @@
 .sub-nav{
     padding: 10px;
 }
+
+.list {
+    min-height: 30px;
+}
