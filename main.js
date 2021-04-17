@@ -9,6 +9,10 @@ $(".new-input").keypress(function(e){
         </div>
             `
         );
+        console.log("hi there! how to make conflict?");
+
+
+        
         $(this).val("");
         $(".del").click(function(){
             $(this).parent().remove();
