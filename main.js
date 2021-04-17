@@ -1,11 +1,11 @@
-$(".new-input").keypress(function(event){
+$(".new-input").keypress(function(e){
 
-    if(event.keyCode == 13){
+    if(e.keyCode == 13){
         let newJob = $(this).val();
         $(this).prev().append(
             `<div class="list-item">
               ${newJob}              
-            <span class="del float-right"><i class="fas fa-trash pr-2"></i></span>
+            <span class="del"><i class="fas fa-trash pr-2"></i></span>
         </div>
             `
         );
