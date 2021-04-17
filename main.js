@@ -13,10 +13,10 @@ $(".new-input").keypress(function(e){
 
 
         
-        $(this).val("");
-        $(".del").click(function(){
-            $(this).parent().remove();
-        });
+        // $(this).val("");
+        // $(".del").click(function(){
+        //     $(this).parent().remove();
+        // });
         
         
         $( ".list" ).sortable({
